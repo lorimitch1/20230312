@@ -1,5 +1,5 @@
 try:
     a = 10/0
-except:
-    pass
+except Exception as e:
+    print(e.message)
 print("hi")
